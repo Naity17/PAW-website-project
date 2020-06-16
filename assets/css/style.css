@@ -1,0 +1,111 @@
+  
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i|Source+Sans+Pro:300,300i,400,400i,600,600i,700,700i&display=swap&subset=cyrillic');
+
+
+/*-------------------- Colors --------------------*/
+body {
+    background-color: #d9c7c7;
+}
+
+
+
+/*-------------------- Text, Headings, Margins --------------------*/
+
+.uppercase {
+    padding-top: 100px;
+    color: #31465a;
+    font-weight: 1em;
+}
+
+.lead{
+    color: #f8f9fa;
+    font-weight: 400ipx;
+}
+
+.fa {
+    padding-right: 20px;
+}
+/*-------------------- NavBar --------------------*/
+.navbar {
+    background: none;
+    border-color: transparent;
+    background-color: rgba(141, 136, 130, .75);
+    color: rgb(167, 126, 51);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.navbar .navbar-brand {
+    border-radius: 70%;
+}
+
+/*-------------------- Containers --------------------*/
+
+.container-main {
+    height: 100vh;
+    width: 100vw;
+
+    background: url('../images/general/dog-background-1.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#home-page {
+    margin-bottom: 15px;
+}
+
+/*-------------------- Jumbotrons --------------------*/
+.jumbotron {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 32px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+
+
+/*-------------------- Buttons --------------------*/
+
+.btn.btn-primary {
+    color: #fff;
+    background-color: #5682c0;
+    border-color: #5682c0;
+    border-radius: 20px;
+}
+
+/*-------------------- Cards --------------------*/
+.card-buddah-container {
+    position: relative;
+    overflow: hidden;
+    padding-right: 40px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+.card-buddah {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(243, 243, 243, 0.80);
+    border-radius: 20px;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+}
+/*-------------------- Block Dividers --------------------*/
+
+.block-divider{
+    width: 275px;
+    height: 2px;
+    border: 0;
+    background-color: #444;
+}
+
+.block-divider--light {
+    background-color: #e9ecef;
+}
