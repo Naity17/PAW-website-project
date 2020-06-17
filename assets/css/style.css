@@ -13,17 +13,36 @@ body {
 
 .uppercase {
     padding-top: 100px;
-    color: #31465a;
-    font-weight: 1em;
+    color: #f8f9fa;
+    font-weight: bold;
 }
 
 .lead{
     color: #f8f9fa;
-    font-weight: 400ipx;
+    font-weight: normal;
 }
 
 .fa {
     padding-right: 20px;
+    color: #a7282e85;
+}
+
+.fas {
+    color: #a7282e85;
+    padding-bottom: 10px;
+}
+
+.fab {
+    color: #a7282e85;
+    padding-bottom: 10px;
+}
+
+.who-text {
+    color: #f8f9fa;
+}
+
+.card-title {
+    color: #a7282e85;
 }
 /*-------------------- NavBar --------------------*/
 .navbar {
@@ -35,32 +54,88 @@ body {
     font-weight: 500;
 }
 
-.navbar .navbar-brand {
+.navbar.navbar-brand {
     border-radius: 70%;
 }
 
+.nav-link {
+    color: white;
+    font-weight: 500;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #5682c0;
+    border-radius: 20px;
+}
 /*-------------------- Containers --------------------*/
 
 .container-main {
-    height: 100vh;
-    width: 100vw;
-
-    background: url('../images/general/dog-background-1.jpg') no-repeat center center fixed;
+    background: url('../images/general/dog-background-2.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 
+.pic-container {
+    width: 250px;
+    height: 400px;
+}
+
+.container-animals {
+    background: url('../images/general/our-animals.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.container-causes {
+    background: url('../images/general/our-causes.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    margin-top: 62px;
+    height: 250px;
+}
+
+.container-help{
+    background: url('../images/general/help (1).jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    margin-top: 62px;
+    height: 250px;
+}
+
+.container-about{
+    background: url('../images/general/about-us.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    margin-top: 62px;
+    height: 250px;
+}
+
 #home-page {
     margin-bottom: 15px;
+}
+
+#shelter {
+    background-color: rgba(243, 243, 243, 0.80);
 }
 
 /*-------------------- Jumbotrons --------------------*/
 .jumbotron {
     padding-left: 0px;
     padding-right: 0px;
-    margin-bottom: 32px;
+    margin-bottom: 0px;
     padding-bottom: 0px;
     margin-top: 0px;
     padding-top: 0px;
@@ -74,6 +149,10 @@ body {
     color: #fff;
     background-color: #5682c0;
     border-color: #5682c0;
+    border-radius: 20px;
+}
+
+.btn-secondary{
     border-radius: 20px;
 }
 
@@ -97,6 +176,17 @@ body {
     padding-right: 20px;
     padding-bottom: 40px;
 }
+
+.card-what {
+    border-radius: 5px;
+    background-color: rgba(247, 243, 243, 0.822)
+}
+
+.card-description {
+    width: 250px;
+    height: 300px;
+}
+
 /*-------------------- Block Dividers --------------------*/
 
 .block-divider{
@@ -108,4 +198,12 @@ body {
 
 .block-divider--light {
     background-color: #e9ecef;
+}
+
+/*-------------------- Footer --------------------*/
+
+footer {
+    border-color: transparent;
+    text-align: center;
+    background-color: rgba(243, 243, 243, 0.80);
 }
