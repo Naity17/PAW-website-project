@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i|Source+Sans+Pro:300,300i,400,400i,600,600i,700,700i&display=swap&subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <link rel="icon" type="image/png" href="assets/images/general/favicon.png" />
     <title>PAW - Pazardjik Animal Welfare</title>
 </head>
 
@@ -40,7 +41,7 @@
                         <a class="nav-link" href="About-Us.html">About Us<span class="sr-only">(current)</span></a>
                     </li>
                 </ul>
-                <button class="btn btn-primary btn-sm">Donate</button>
+                <button class="btn btn-primary btn-lg">Donate</button>
             </div>
         </nav>
         <!-- ---------------End of NavBar-------------- -->
@@ -48,18 +49,18 @@
     <section id="about-us">
         <main role="main">
             <section class="jumbotron text-center">
-                <div class="container">
-                    <h1 class="jumbotron-heading">About Us</h1>
-                    <p class="lead text-muted">The story of two volunteers in a small city, somewhere in the south of Bulgaria</p>
+                <div class="container-fluid container-about">
+                    <h1 class="uppercase">About Us</h1>
+                    <p class="lead">The story of two volunteers in a small city, somewhere in the south of Bulgaria</p>
                 </div>
             </section>
             <section class="text-center" id="about-us-details">
-                <div class="row">
+                <div class="row py-3">
                     <div class="col-12">
                         <h2>We are...</h2>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row py-4">
                     <div class="col"></div>
                     <div class="col-12 col-md-5">
                         <div class="media">
@@ -86,7 +87,7 @@
                 </div>
             </section>
             <section class="text-center" id="our-aims-details">
-                <div class="row">
+                <div class="row py-3" style="background-color: rgba(243, 243, 243, 0.80);">
                     <div class="col"></div>
                     <div class="col-10">
                         <h2>We strive...</h2>
@@ -105,16 +106,16 @@
                 <div class="container">
                     <div class="row bg-color-contact">
                         <div class="col-12 col-md-6" style="width:800px; margin:0 auto;">
-                            <h3 class="contact-heading uppercase text-center">Something you would like to share with us?</h3>
-                            <h5 class="uppercase text-center">Let's hear it!</h5>
+                            <h3 class="contact-heading uppercase text-center" style="color: black; padding-top: 20px;">Something you would like to share with us?</h3>
+                            <h5 class="lead bold text-center" style="color: black">Let's hear it!</h5>
                             <div class="center-form">
                                 <form>
                                     <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
-                                    <input type="text" name="email" id="emailaddress" class="form-control" placeholder="Email" required />
+                                    <input type="text" name="email" id="emailaddress" class="form-control my-2" placeholder="Email" required />
                                     <textarea rows="5" name="yourmessage" id="yourmessage" class="form-control" placeholder="Your Message" required></textarea>
                                     <div class="form-row text-center">
                                         <div class="col">
-                                            <button type="submit" class="btn btn-success">Send</button>
+                                            <button type="submit" class="btn btn-success my-3">Send</button>
                                         </div>
                                     </div>
                                 </form>
@@ -126,34 +127,38 @@
         </main>
     </section>
 
-    <footer class="container text-center footer-details">
-        <div class="row">
-            <div class="col-12">
-                <h5>Contact Details</h5>
+    <footer>
+        <div class="container text-center footer-details">
+            <div class="row">
+                <div class="col-12 my-3">
+                    <h5>Contact Details</h5>
+                </div>
             </div>
-        </div>
-        <div id="contact-details-items" class="row ">
-            <div class="col-xs-12 col-4 address-item">
-                <i class="far fa-address-card"></i>Malo Konare, Pazardzhik Province, Bulgaria
+            <div id="contact-details-items" class="row ">
+                <div class="col-4 address-item">
+                    <i class="fas fa-address-card"></i>
+                    <p>Malo Konare, Pazardzhik Province, Bulgaria</p>
+                </div>
+                <div class="col-4 phone-number-item">
+                    <i class="fas fa-mobile-alt"></i>
+                    <p>+359 (0) 896666875</p>
+                </div>
+                <div class="col-4 email-item">
+                    <i class="fas fa-at"></i>
+                    <p>annnet@abv.bg</p>
+                </div>
             </div>
-            <div class="col-xs-12 col-4 phone-number-item">
-                <i class="fas fa-mobile-alt"></i>0896666875
-            </div>
-            <div class="col-xs-12 col-4 email-item">
-                <i class="fas fa-at"></i>annnet@abv.bg
-            </div>
-        </div>
-        <div class="row" id="social-details">
-            <div class="col-xs-12 col-sm-12 icons">
-                <h5 class="uppercase general-sub">Talk to us</h5>
-                <a href="https://www.facebook.com/PAW-Pazardjik-Animal-Welfare-134643483313391/" target="_blank"><i class="fab fa-facebook alignment"></i></a>
-                <a href="https://twitter.com/ralito17?lang=en" target="_blank"><i class="fab fa-twitter alignment"></i></a>
-                <a href="https://www.instagram.com/?hl=en" target="_blank"><i class="fab fa-instagram alignment"></i></a>
+            <div class="row" id="social-details">
+                <div class="col-xs-12 col-sm-12 my-3">
+                    <h5 class="general-sub">Talk to us</h5>
+                    <a href="https://www.facebook.com/PAW-Pazardjik-Animal-Welfare-134643483313391/" target=""><i class="fab fa-facebook alignment"></i></a>
+                </div>
             </div>
         </div>
     </footer>
+    
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </body>
 

@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i|Source+Sans+Pro:300,300i,400,400i,600,600i,700,700i&display=swap&subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <link rel="icon" type="image/png" href="assets/images/general/favicon.png"/>
     <title>PAW - Pazardjik Animal Welfare</title>
 </head>
 
@@ -40,7 +41,7 @@
                         <a class="nav-link" href="About-Us.html">About Us</a>
                     </li>
                 </ul>
-                <button class="btn btn-primary btn-sm">Donate</button>
+                <button class="btn btn-primary btn-lg">Donate</button>
             </div>
         </nav>
         <!-- ---------------End of NavBar-------------- -->
@@ -48,19 +49,18 @@
 
     <section id="our-causes">
         <main role="main">
-            <section class="jumbotron text-center" id="our-causes-jumbotron">
-                <div class="container">
-                    <h1 class="jumbotron-heading">Our Causes</h1>
-                    <hr>
-                    <p class="lead text-muted">The life of street dogs in Bulgaria is hearbreaking. Therfore, we decided to take matter in our own hands and fight the good fight for already eight years. Here are our causes.</p>
+            <section class="jumbotron text-center">
+                <div class="container-fluid container-causes">
+                    <h1 class="uppercase" style="padding-top: 20px;">Our Causes</h1>
+                    <p class="lead lead-causes text-center mt-4">The life of street dogs in Bulgaria is hearbreaking. Therefore, we decided to take matter in our own hands and fight the good fight for already eight years. Here are our causes.</p>
                 </div>
             </section>
-            <section class="text-center container" id="shelter">
+            <section class="text-center container-fluid pt-5" id="shelter">
                 <div class="row">
                     <div class="col"></div>
                     <div class="col-9 text-left">
                         <h2>Building "The Farm"</h2>
-                        <p>Our primary goal for a long time was to have our own space, which we can turn into a shelter for the animals we saved from the streets. It was a difficult task but with soon enough, with the help of our families and supporters,
+                        <p class="my-4">Our primary goal for a long time was to have our own space, which we can turn into a shelter for the animals we saved from the streets. It was a difficult task but with soon enough, with the help of our families and supporters,
                             we managed to find the perfect place. It requires a lot of work to be completed but we currently have enough outdoor space for the dogs to run, enough cages for the ones, which need rest to heal and plenty of areas where the
                             doggies can relax.</p>
                     </div>
@@ -79,7 +79,7 @@
                                     <div class="modal fade" id="Image1" tabindex="-1" role="dialog" aria-hidden="true">
                                         <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
                                             <div class="modal-body">
-                                                <img class="img-fluid" src="aassets/images/shelter/shelter-1.jpg" alt="a dog in front of the shelter">
+                                                <img class="img-fluid" src="assets/images/shelter/shelter-1.jpg" alt="a dog in front of the shelter">
                                             </div>
                                         </div>
                                     </div>
@@ -184,7 +184,7 @@
                 </div>
             </section>
             <section id="sick-dogs-cause">
-                <div class="row">
+                <div class="row my-4">
                     <div class="col"></div>
                     <div class="col-9">
                         <h2>Taking care of sick and mistreated animals</h2>
@@ -194,7 +194,7 @@
                 </div>
             </section>
             <section id="neuter-cause">
-                <div class="row">
+                <div class="row my-4">
                     <div class="col"></div>
                     <div class="col-9">
                         <h2>Neuter, vaccinate and deworm</h2>
@@ -204,15 +204,15 @@
                 </div>
             </section>
             <section id="finding-home-cause">
-                <div class="row">
+                <div class="row my-4">
                     <div class="col"></div>
                     <div class="col-9">
                         <h2>Fnding a home</h2>
                         <p>This is the most difficult task of them all. Even though we have many Bulgarian families that have fostered animals for our organization, we highly rely on our partnership with German organizations. Here are some of them:</p>
-                        <div class="row">
+                        <div class="row pt-2">
                             <div class="col">
-                                <a href="https://www.leetchi.com"><img src="assets/images/general/logo-Leetchi-horizontal.png" border="0" height="100" width="250" alt="Link to this page"></a>
-                                <a href="https://herzfuerpfoten.at/"><img src="assets/images/general/herzfuerpfoten-logo.png" border="0" height="100" width="250" alt="Link to this page"></a>
+                                <a href="https://www.leetchi.com"><img src="assets/images/general/logo-Leetchi-horizontal.png"  height="100" width="250" alt="Link to this page"></a>
+                                <a href="https://herzfuerpfoten.at/"><img src="assets/images/general/herzfuerpfoten-logo.png"  height="100" width="150" alt="Link to this page" class="ml-3"></a>
                             </div>
                         </div>
                     </div>
@@ -222,38 +222,41 @@
             <section>
                 <div class="row text-center">
                     <div class="col"></div>
-                    <div class="col-9">
+                    <div class="col-9 pb-4">
                         <h4>If our causes have touched you and you are willing to support us, have a look here at how you can do that</h4>
-                        <a href="How-you-can-help.html" class="btn btn-info" role="button">Support Us</a>
+                        <a href="How-you-can-help.html" class="btn btn-primary my-3" role="button">Support Us</a>
                     </div>
                     <div class="col"></div>
                 </div>
             </section>
         </main>
     </section>
-    <footer class="container text-center footer-details">
-        <div class="row">
-            <div class="col-12">
-                <h5>Contact Details</h5>
+    <footer>
+        <div class="container text-center footer-details">
+            <div class="row">
+                <div class="col-12 my-3">
+                    <h5>Contact Details</h5>
+                </div>
             </div>
-        </div>
-        <div id="contact-details-items" class="row ">
-            <div class="col-xs-12 col-md-4 address-item">
-                <i class="far fa-address-card"></i>Malo Konare, Pazardzhik Province, Bulgaria
+            <div id="contact-details-items" class="row ">
+                <div class="col-4 address-item">
+                    <i class="fas fa-address-card"></i>
+                    <p>Malo Konare, Pazardzhik Province, Bulgaria</p>
+                </div>
+                <div class="col-4 phone-number-item">
+                    <i class="fas fa-mobile-alt"></i>
+                    <p>+359 (0) 896666875</p>
+                </div>
+                <div class="col-4 email-item">
+                    <i class="fas fa-at"></i>
+                    <p>annnet@abv.bg</p>
+                </div>
             </div>
-            <div class="col-xs-12 col-md-4 phone-number-item">
-                <i class="fas fa-mobile-alt"></i>0896666875
-            </div>
-            <div class="col-xs-12 col-md-4 email-item">
-                <i class="fas fa-at"></i>annnet@abv.bg
-            </div>
-        </div>
-        <div class="row" id="social-details">
-            <div class="col-12 icons">
-                <h5 class="uppercase general-sub">Talk to us</h5>
-                <a href="https://www.facebook.com/PAW-Pazardjik-Animal-Welfare-134643483313391/" target="_blank"><i class="fab fa-facebook alignment"></i></a>
-                <a href="https://twitter.com/ralito17?lang=en" target="_blank"><i class="fab fa-twitter alignment"></i></a>
-                <a href="https://www.instagram.com/?hl=en" target="_blank"><i class="fab fa-instagram alignment"></i></a>
+            <div class="row" id="social-details">
+                <div class="col-xs-12 col-sm-12 my-3">
+                    <h5 class="general-sub">Talk to us</h5>
+                    <a href="https://www.facebook.com/PAW-Pazardjik-Animal-Welfare-134643483313391/" target=""><i class="fab fa-facebook alignment"></i></a>
+                </div>
             </div>
         </div>
     </footer>
