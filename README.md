@@ -4,6 +4,7 @@ This project is part of my full stack development course at Code Institute. Its 
 With it I hope they manage to attract more donations and get in contact with more foster parents for their sheltered animals. 
 ## Demo
 
+Here is a link to the live version on the site on GitHub Pages - https://naity17.github.io/PAW-website-project/
 
 ## UX
 The UX is designed to attract two main target groups:
@@ -52,7 +53,7 @@ The Facebook link in the foter leads directly to the social media page of the or
 
 ## Deployment
 
-This site is hosted using GitHub pages and is deplayed directly from the master branch. If there are new commits, the site will update automatically. To ensure the correct deployment of www.paw-help.com, the landing page is named index.html.
+This site is hosted using GitHub pages and is deplayed directly from the master branch. If there are new commits, the site will update automatically. To ensure the correct deployment of https://naity17.github.io/PAW-website-project/, the landing page is named index.html.
 
 If you would like to run this repository locally, you can do so by typing <git clone> and pasting the following link: https://github.com/Naity17/PAW-website-project in your terminal. To remove it simply type <git remote rm origin> into the terminal.
 
